@@ -1,0 +1,11 @@
+readall:
+   handler: handler.readall
+   events:
+     - http:
+         path: getUsers
+         method: get
+         cors: true
+         swaggerTags: [Users]
+         queryStringParameters:
+           Depart: 
+             type: string

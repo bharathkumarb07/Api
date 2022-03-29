@@ -1,0 +1,9 @@
+update:
+   handler: handler.update
+   events:
+      - http:
+           path: updateUsers/{id}
+           method: put
+           swaggerTags: [Users]
+           cors: true
+           bodyType: 'Userspost'                                                                                                                                                                                                                                                                                                                      

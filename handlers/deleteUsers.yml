@@ -1,0 +1,8 @@
+delete:
+  handler: handler.delete
+  events:
+     - http:
+          path: deleteUsers/{id}
+          method: delete
+          swaggerTags: [Users]  
+          cors: true

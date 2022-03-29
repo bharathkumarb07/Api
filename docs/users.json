@@ -1,0 +1,19 @@
+{
+  "definitions": {
+    "Userspost": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": "string"
+        },
+        "Depart": {
+          "type": "string"
+        }
+      },
+      "example": {
+        "Name": "Bharathkumar",
+        "Depart": "MD"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+create:
+   handler: handler.create
+   events:
+      - http:
+          path: createUsers
+          method: post
+          swaggerTags: [Users]
+          cors: true
+          bodyType: 'Userspost'
