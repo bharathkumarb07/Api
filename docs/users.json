@@ -12,7 +12,8 @@
       },
       "example": {
         "Name": "Bharathkumar",
-        "Depart": "MD"
+        "Depart": "MD",
+        "age": "19"
       }
     }
   }
